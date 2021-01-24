@@ -73,3 +73,5 @@ C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZ
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.genruntimeconfig.cache
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.csproj.CopyComplete
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_HeaderPartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_AboutMePartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_MenuDesignPartial.cshtml.g.cs

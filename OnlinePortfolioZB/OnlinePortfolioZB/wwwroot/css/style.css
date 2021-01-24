@@ -412,7 +412,7 @@ a.about-button:hover {
     border-bottom: 1px dashed #07CB79;
     margin-bottom: 7px;
     padding-bottom: 5px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 
 .about-info ul li span {
