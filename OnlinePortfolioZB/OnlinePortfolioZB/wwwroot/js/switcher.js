@@ -6,41 +6,41 @@
 	"use strict";
 
 	$(".style1" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style1.css" );
+		$("#colors" ).attr("href", "css/switcher/style1.css" );
 		return false;
 	});
 
 	$(".style2" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style2.css" );
+		$("#colors" ).attr("href", "css/switcher/style2.css" );
 		return false;
 	});
 
 	$(".style3" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style3.css" );
+		$("#colors" ).attr("href", "css/switcher/style3.css" );
 		return false;
 	});
 
 	$(".style4" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style4.css" );
+		$("#colors" ).attr("href", "css/switcher/style4.css" );
 		return false;
 	});
 
 	$(".style5" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style5.css" );
+		$("#colors" ).attr("href", "css/switcher/style5.css" );
 		return false;
 	});
 
 	$(".style6" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style6.css" );
+		$("#colors" ).attr("href", "css/switcher/style6.css" );
 		return false;
 	});
 
 	$(".style7" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style7.css" );
+		$("#colors" ).attr("href", "css/switcher/style7.css" );
 		return false;
 	});
 	$(".style8" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/switcher/style8.css" );
+		$("#colors" ).attr("href", "css/switcher/style8.css" );
 		return false;
 	});
 	
