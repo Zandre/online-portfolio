@@ -1,0 +1,61 @@
+#style-switcher h2 a { background: #3C5999 none repeat scroll 0 0 }
+
+
+.social-link a {
+	background: #3C5999;
+}
+.menu-area {
+	background: #3C5999;
+}
+.section-title {
+	background: #3C5999;
+}
+a.about-button {
+	background: #3C5999;
+}
+.skill-area .progress-bar {
+	background: #3C5999;
+}
+.about-info ul li {
+	border-bottom: 1px dashed #3C5999;
+}
+.single-education i {
+	color: #3C5999;
+}
+.single-service i {
+	color: #3C5999;
+}
+.single-education:hover, .single-experience:hover {
+	border: 1px solid rgba(60, 89, 153, .4);
+}
+.single-service:hover {
+	border: 1px solid rgba(60, 89, 153, .4);
+}
+.testimonial-list:hover {
+    border: 1px solid rgba(60, 89, 153, .4);
+}
+.work .filters li.active {
+	background-color: #3C5999;
+}
+
+.portfolio-caption {
+	background: rgba(60, 89, 153, .8);
+}
+a.read-more {
+background: #3C5999;
+}
+.single-blog:hover {
+   border: 1px solid rgba(60, 89, 153, .4);
+}
+.contact-form button {
+	background: #3C5999;
+}
+.footer-area {
+	background: #3C5999;
+}
+.scrollup {
+	background-color: #3C5999;
+}
+.work .filters li:hover {
+    background-color: #3C5999;
+}
