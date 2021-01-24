@@ -78,3 +78,7 @@ C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZ
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_EducationPartial.cshtml.g.cs
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_ExperiencePartial.cshtml.g.cs
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_InformalEducationPartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_ContactPartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_FooterPartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_ScrollToUpPartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_SwitcherPartial.cshtml.g.cs
