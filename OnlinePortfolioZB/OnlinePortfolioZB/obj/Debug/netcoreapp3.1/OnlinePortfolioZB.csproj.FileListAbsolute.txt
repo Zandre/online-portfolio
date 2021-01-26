@@ -83,3 +83,4 @@ C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZ
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_ScrollToUpPartial.cshtml.g.cs
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\_SwitcherPartial.cshtml.g.cs
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Experience\_BarnOwl_SoftwareDeveloperPartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Experience\_Inoxico_SoftwareDeveloperPartial.cshtml.g.cs
