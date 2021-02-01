@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using OnlinePortfolioZB.Emails;
 using OnlinePortfolioZB.Models;
 
 namespace OnlinePortfolioZB.Controllers
@@ -12,10 +13,13 @@ namespace OnlinePortfolioZB.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IEmailService _emailService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, 
+            IEmailService emailService)
         {
             _logger = logger;
+            _emailService = emailService;
         }
 
         public IActionResult Index()
@@ -32,6 +36,20 @@ namespace OnlinePortfolioZB.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ContactMe(ContactMeMessage viewModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Partials/_ContactPartial", viewModel);
+            }
+
+            _emailService.ContactMe(viewModel.Name, viewModel.Email, viewModel.Message);
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OnlinePortfolioZB.Emails;
 
 namespace OnlinePortfolioZB
 {
@@ -24,6 +25,7 @@ namespace OnlinePortfolioZB
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<IEmailService, MockedEmailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
