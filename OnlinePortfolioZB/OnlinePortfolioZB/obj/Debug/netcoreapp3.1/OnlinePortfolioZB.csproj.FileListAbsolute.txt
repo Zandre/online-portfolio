@@ -49,8 +49,6 @@ C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZ
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.csprojAssemblyReference.cache
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.AssemblyInfoInputs.cache
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.AssemblyInfo.cs
-C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.csproj.CoreCompileInputs.cache
-C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.RazorAssemblyInfo.cache
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.RazorAssemblyInfo.cs
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.TagHelpers.input.cache
@@ -90,3 +88,8 @@ C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZ
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Interests\_MsAzurePartial.cshtml.g.cs
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Interests\_SquashBotPartial.cshtml.g.cs
 C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Interests\_ReadingPartial.cshtml.g.cs
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.csproj.CoreCompileInputs.cache
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\zandreb\source\repos\Online-Portfolio\online-portfolio\OnlinePortfolioZB\OnlinePortfolioZB\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll

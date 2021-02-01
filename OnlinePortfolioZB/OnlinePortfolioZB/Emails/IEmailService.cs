@@ -1,8 +1,10 @@
-﻿namespace OnlinePortfolioZB.Emails
+﻿using System.Threading.Tasks;
+
+namespace OnlinePortfolioZB.Emails
 {
     public interface IEmailService
     {
-        void ContactMe(string name, string email, string message);
+        Task ContactMe(string name, string email, string message);
     }
 }
     

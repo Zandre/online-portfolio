@@ -1,4 +1,5 @@
 ﻿using System.Net.Mail;
+using System.Threading.Tasks;
 
 namespace OnlinePortfolioZB.Emails
 {
@@ -13,14 +14,15 @@ namespace OnlinePortfolioZB.Emails
             _smtpClient.Host = "localhost";
         }
 
-        public void ContactMe(string name, string email, string message)
+        public async Task ContactMe(string name, string email, string message)
         {
             var mailMessage = new MailMessage();
             mailMessage.To.Add("botha.zandre@gmail.com");
             mailMessage.From = new MailAddress(email);
             mailMessage.Body = message;
             mailMessage.Subject = "Online Profile Message";
-            _smtpClient.Send(mailMessage);
+            string userState = "test message1";
+            _smtpClient.SendAsync(mailMessage, userState);
         }
     }
 }
