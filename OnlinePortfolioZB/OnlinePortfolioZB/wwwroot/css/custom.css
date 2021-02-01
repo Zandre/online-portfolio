@@ -1,3 +1,9 @@
 ﻿div.modalz {
+    /*Modals displayed beneath header bar thing*/
     padding-top: 50px;
+}
+
+.img-responsive {
+    /*images on 'Interests' section the same height*/
+    height: 300px;
 }
