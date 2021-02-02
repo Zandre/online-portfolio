@@ -20,6 +20,13 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.301'
+     
+    - name: variable substitution
+      uses: microsoft/variable-substitution@v1 
+      with: 
+          files: 'OnlinePortfolioZB/OnlinePortfolioZB/appsettings.json'
+      env:
+          EmailSettings.SENDGRID_API_KEY: ${{secrets.SENDGRID_API_KEY}}
 
     - name: Build with dotnet
       run: dotnet build OnlinePortfolioZB/OnlinePortfolioZB/OnlinePortfolioZB.csproj --configuration Release
@@ -34,5 +41,3 @@ jobs:
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_d54a716a66284e929bfd604bd1a98c0b }}
         package: ${{env.DOTNET_ROOT}}/myapp 
-      env: 
-        SENDGRID_API_KEY: ${{secrets.SENDGRID_API_KEY}}
