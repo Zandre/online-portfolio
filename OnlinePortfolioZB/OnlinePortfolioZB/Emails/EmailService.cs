@@ -20,7 +20,7 @@ namespace OnlinePortfolioZB.Emails
 
             var sendGridMessage = new SendGridMessage();
             sendGridMessage.SetFrom(new EmailAddress(email: email, name: name)); // TODO ZB - this might be incorrect, ENR Management works differently
-            sendGridMessage.SetSubject("Reset Password");
+            sendGridMessage.SetSubject("Online Profile Message");
             sendGridMessage.AddTo(new EmailAddress(email: "botha.zandre@gmail.com", name: "Zandre Botha"));
             sendGridMessage.AddContent(MimeType.Html, $"{message}");
             sendGridMessage.AddContent(MimeType.Text, $"{message}");
