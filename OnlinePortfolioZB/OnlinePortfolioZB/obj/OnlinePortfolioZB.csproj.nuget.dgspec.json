@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj": {}
+    "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj": {
+    "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
+        "projectUniqueName": "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
         "projectName": "OnlinePortfolioZB",
-        "projectPath": "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
-        "packagesPath": "C:\\Users\\zandreb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\obj\\",
+        "projectPath": "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
+        "packagesPath": "C:\\Users\\zbotha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zandreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zbotha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "SendGrid": {
               "target": "Package",
@@ -56,6 +55,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -64,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

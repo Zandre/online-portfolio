@@ -570,11 +570,12 @@
   },
   "libraries": {
     "Microsoft.CSharp/4.0.1": {
-      "sha512": "unJgmoA5XvDLYYLiqvTVQJgwLipiuZMsulaQkkw8Yy5XqGco2SrgVLRu5WNXVtEuBHaDVeFB3V98VyFYba2+Hw==",
+      "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -913,11 +914,12 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "3KiJy5M6Z24IRcf3ia9cMkagXXb4GMhttY4+ZDq+S1ShEJt5ymmEaS/xpZT7U5dBwt/fz304X9etXrAihkE2Kw==",
+      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2127,11 +2129,12 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
-      "sha512": "2yZmyadmWnLJhT02NIbIWkAr+YQUXXndxYnD1dwMh0vy6LH1tnpjk63E4nS5A4MXRuUuxrUBzWoSwkwbkV9dRg==",
+      "sha512": "HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2715,23 +2718,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zandreb\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\zbotha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
+      "projectUniqueName": "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
       "projectName": "OnlinePortfolioZB",
-      "projectPath": "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
-      "packagesPath": "C:\\Users\\zandreb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zandreb\\source\\repos\\Online-Portfolio\\online-portfolio\\OnlinePortfolioZB\\OnlinePortfolioZB\\obj\\",
+      "projectPath": "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\OnlinePortfolioZB.csproj",
+      "packagesPath": "C:\\Users\\zbotha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zbotha\\Dev\\ZandreBothaCV\\OnlinePortfolioZB\\OnlinePortfolioZB\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\zandreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zbotha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2743,6 +2742,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -2754,6 +2754,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "SendGrid": {
             "target": "Package",
@@ -2770,6 +2771,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.22, 3.1.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2778,7 +2797,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
