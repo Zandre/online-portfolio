@@ -122,6 +122,7 @@ C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.RazorCoreGenerate.cache
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Experience\_BarnOwl_SoftwareDeveloperPartial.cshtml.g.cs
+C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Experience\_Capgemini_SeniorApplicationsConsultantPartial.cshtml.g.cs
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Experience\_Inoxico_DevelopmentManagerPartial.cshtml.g.cs
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Experience\_Inoxico_SoftwareDeveloperPartial.cshtml.g.cs
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Interests\_MsAzurePartial.cshtml.g.cs
