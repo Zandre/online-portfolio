@@ -5,7 +5,7 @@ namespace OnlinePortfolioZB.Models
     public class ContactMeMessage
     {
         [Required]
-        [Display(Name = "Message", Prompt = "Hi Zandré, ...")]
+        [Display(Name = "Message", Prompt = "Help me Obi-Wan Kenobi, you're my only hope...")]
         public string Message { get; set; }
 
         [Required]
