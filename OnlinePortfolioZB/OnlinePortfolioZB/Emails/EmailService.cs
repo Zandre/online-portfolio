@@ -21,8 +21,8 @@ namespace OnlinePortfolioZB.Emails
             var sendGridMessage = new SendGridMessage();
             sendGridMessage.SetSubject("Online Profile Message");
             sendGridMessage.AddTo(new EmailAddress(email: "botha.zandre@gmail.com", name: "Zandre Botha"));
-            sendGridMessage.AddContent(MimeType.Html, $"{message}");
-            sendGridMessage.AddContent(MimeType.Text, $"{message}");
+            sendGridMessage.AddContent(MimeType.Html, $"{message} [from {email}]");
+            sendGridMessage.AddContent(MimeType.Text, $"{message} [from {email}]");
 
             var response = await sendGridClient.SendEmailAsync(sendGridMessage).ConfigureAwait(false);
         }
