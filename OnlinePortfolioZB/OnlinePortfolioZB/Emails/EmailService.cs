@@ -19,6 +19,7 @@ namespace OnlinePortfolioZB.Emails
             var sendGridClient = new SendGridClient(_emailSettings.SENDGRID_API_KEY);
 
             var sendGridMessage = new SendGridMessage();
+            sendGridMessage.SetFrom(email: "no-reply@cvzandrebotha.com", name: name); // TODO ZB - this might be incorrect, ENR Management works differently
             sendGridMessage.SetSubject("Online Profile Message");
             sendGridMessage.AddTo(new EmailAddress(email: "botha.zandre@gmail.com", name: "Zandre Botha"));
             sendGridMessage.AddContent(MimeType.Html, $"{message} [from {email}]");
