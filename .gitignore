@@ -50,3 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.vsidx
+OnlinePortfolioZB/OnlinePortfolioZB/obj/Debug/netcoreapp3.1/Razor/Views/Home/Partials/_AboutMePartial.cshtml.g.cs
+*.cshtml.g.cs
+*.csproj.nuget.dgspec.json
+*.cache
+OnlinePortfolioZB/OnlinePortfolioZB/obj/OnlinePortfolioZB.csproj.nuget.g.props
+OnlinePortfolioZB/OnlinePortfolioZB/obj/project.assets.json
+OnlinePortfolioZB/OnlinePortfolioZB/obj/Debug/netcoreapp3.1/project.razor.vs.json
+*.v5.1
+OnlinePortfolioZB/.vs/OnlinePortfolioZB/v17/.suo
+*.v2
+OnlinePortfolioZB/.vs/OnlinePortfolioZB/FileContentIndex/read.lock
