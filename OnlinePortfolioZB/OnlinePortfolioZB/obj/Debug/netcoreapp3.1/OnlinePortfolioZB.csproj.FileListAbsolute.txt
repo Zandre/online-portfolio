@@ -154,3 +154,4 @@ C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.dll
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.pdb
 C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\OnlinePortfolioZB.genruntimeconfig.cache
+C:\Users\zbotha\Dev\ZandreBothaCV\OnlinePortfolioZB\OnlinePortfolioZB\obj\Debug\netcoreapp3.1\Razor\Views\Home\Partials\Interests\_GoodReadsPartial.cshtml.g.cs
