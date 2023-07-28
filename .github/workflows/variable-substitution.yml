@@ -14,3 +14,5 @@ jobs:
           files: 'OnlinePortfolioZB/OnlinePortfolioZB/appsettings.json'
       env:
           EmailSettings.SENDGRID_API_KEY: ${{secrets.SENDGRID_API_KEY}}
+          EmailSettings.Sender_Name: ${{secrets.from_email_name}}
+          EmailSettings.From_Email: ${{secrets.from_email}}
