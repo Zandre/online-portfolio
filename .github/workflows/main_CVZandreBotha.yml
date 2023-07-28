@@ -27,6 +27,8 @@ jobs:
           files: 'OnlinePortfolioZB/OnlinePortfolioZB/appsettings.json'
       env:
           EmailSettings.SENDGRID_API_KEY: ${{secrets.SENDGRID_API_KEY}}
+          EmailSettings.SENDER_NAME: ${{secrets.FROM_EMAIL_NAME}}
+          EmailSettings.FROM_EMAIL: ${{secrets.FROM_EMAIL}}
 
     - name: Build with dotnet
       run: dotnet build OnlinePortfolioZB/OnlinePortfolioZB/OnlinePortfolioZB.csproj --configuration Release
