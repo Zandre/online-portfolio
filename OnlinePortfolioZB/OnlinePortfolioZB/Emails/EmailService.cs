@@ -19,11 +19,11 @@ namespace OnlinePortfolioZB.Emails
             var sendGridClient = new SendGridClient(_emailSettings.SENDGRID_API_KEY);
 
             var sendGridMessage = new SendGridMessage();
-            sendGridMessage.SetFrom(email: "no-reply@cvzandrebotha.com", name: name); // TODO ZB - this might be incorrect, ENR Management works differently
+            sendGridMessage.SetFrom(email: _emailSettings.FROM_EMAIL, name: _emailSettings.SENDER_Name); // TODO ZB - this might be incorrect, ENR Management works differently
             sendGridMessage.SetSubject("Online Profile Message");
             sendGridMessage.AddTo(new EmailAddress(email: "botha.zandre@gmail.com", name: "Zandre Botha"));
-            sendGridMessage.AddContent(MimeType.Html, $"{message} [from {email}]");
-            sendGridMessage.AddContent(MimeType.Text, $"{message} [from {email}]");
+            sendGridMessage.AddContent(MimeType.Html, $"{message} [from {name} ({email})]");
+            sendGridMessage.AddContent(MimeType.Text, $"{message} [from {name} ({email})]");
 
             var response = await sendGridClient.SendEmailAsync(sendGridMessage).ConfigureAwait(false);
         }

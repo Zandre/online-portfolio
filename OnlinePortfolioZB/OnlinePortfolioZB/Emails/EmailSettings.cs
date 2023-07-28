@@ -19,8 +19,8 @@ namespace OnlinePortfolioZB.Emails
     {
         public String SENDGRID_API_KEY { get; set; }
 
-        public String Sender_Name { get; set; }
+        public String SENDER_NAME { get; set; }
 
-        public String From_Email { get; set; }
+        public String FROM_EMAIL { get; set; }
     }
 }
