@@ -42,14 +42,15 @@ namespace OnlinePortfolioZB.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult ContactMe(ContactMeMessage viewModel)
         {
-            if (!ModelState.IsValid)
-            {
-                return View("Partials/_ContactPartial", viewModel);
-            }
+            throw new NotImplementedException("Removing this functionality untill captcha or something can be used");
+            //if (!ModelState.IsValid)
+            //{
+            //    return View("Partials/_ContactPartial", viewModel);
+            //}
 
-            _emailService.ContactMe(viewModel.Name, viewModel.Email, viewModel.Message);
+            //_emailService.ContactMe(viewModel.Name, viewModel.Email, viewModel.Message);
 
-            return RedirectToAction(nameof(Index));
+            //return RedirectToAction(nameof(Index));
         }
     }
 }
